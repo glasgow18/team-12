@@ -1,0 +1,28 @@
+<DOCTYPE! html>
+{% load staticfiles %}
+
+<html>
+
+    <head>
+	    <title>ChatBot</title>
+    </head>
+
+    <body>
+        <div>
+        {% if messages %}
+	<ul>
+            {% for message in messages %}
+	    <li>
+            <a href="/message/{{ message.slug }}">{{ message.name }}</a>
+	    </li>
+            {% endfor %}
+	</ul>
+	    {% else %}
+            <strong>There are no messages.</strong>
+    	{% endif %}
+	</div>
+	<div>
+            <a href="/chatbot/add_message/">Write a message</a><br />
+	</div>
+    </body>
+</html>
