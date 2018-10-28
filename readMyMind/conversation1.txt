@@ -1,0 +1,10 @@
+bot 	: Hello , I’m here to help you.
+user 	: Hi
+bot  	: Hi, how are you?
+user 	: I’m @feeling a little down.
+bot 	: How long have you been feeling like this?
+user 	: half a year
+bot	: Would you like to talk to someone about it?
+user	: yes
+bot	: Why do you think you feel this way
+user 	: There’s a lot of stress in my @work.
